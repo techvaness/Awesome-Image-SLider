@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Awesome Image slider</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<body class="loading">
+
+	<!-- add karla font -->
+
+	<header>
+		<div class="inner">
+			<div class="burger"></div>
+			<nav>
+				<a class="active" href="#">Species</a>
+				<a href="#">About Us</a>
+				<a href="#">Our Work</a>
+				<a href="#">Get Involved</a>
+			</nav>
+		</div>
+	</header>
+
+	<main>
+		<div id="slider">
+
+			<div class="slider-inner">
+				<div id="slider-content">
+					<div class="meta">Species</div>
+					<h2 id="slide-title">Amur <br>Leopard</h2>
+					<span data-slide-title="0">Amur <br>Leopard</span>
+					<span data-slide-title="1">Asiatic <br>Lion</span>
+					<span data-slide-title="2">Siberian <br>Tiger</span>
+					<span data-slide-title="3">Brown <br>Bear</span>
+					<div class="meta">Status</div>
+					<div id="slide-status">Critically Endangered</div>
+					<span data-slide-status="0">Critically Endangered</span>
+					<span data-slide-status="1">Endangered</span>
+					<span data-slide-status="2">Endangered</span>
+					<span data-slide-status="3">Least Concern</span>
+				</div>
+			</div>
+
+			<img src="leopard2.jpg"/>
+			<img src="lion2.jpg"/>
+			<img src="tiger2.jpg"/>
+			<img src="bear2.jpg"/>
+
+			<div id="pagination">
+				<button class="active" data-slide="0"></button>
+				<button data-slide="1"></button>
+				<button data-slide="2"></button>
+				<button data-slide="3"></button>
+			</div>
+
+		</div>
+	</main>
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-40525870-5"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-40525870-5');
+</script>
+
+	</body>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/three.js/r83/three.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.4/TweenMax.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
